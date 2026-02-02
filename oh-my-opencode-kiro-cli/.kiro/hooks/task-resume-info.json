@@ -1,0 +1,14 @@
+{
+  "name": "task-resume-info",
+  "description": "Provide task resume info for continuity",
+  "event": "PostToolUse",
+  "trigger": {
+    "type": "manual",
+    "command": "task-resume-info"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "PostToolUse"
+  }
+}

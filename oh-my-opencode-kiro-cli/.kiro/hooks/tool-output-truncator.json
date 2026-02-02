@@ -1,0 +1,14 @@
+{
+  "name": "tool-output-truncator",
+  "description": "Truncate output from grep/glob/LSP/AST-grep",
+  "event": "PostToolUse",
+  "trigger": {
+    "type": "manual",
+    "command": "tool-output-truncator"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "PostToolUse"
+  }
+}

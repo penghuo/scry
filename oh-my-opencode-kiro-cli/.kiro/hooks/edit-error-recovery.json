@@ -1,0 +1,14 @@
+{
+  "name": "edit-error-recovery",
+  "description": "Recover from edit tool failures",
+  "event": "PostToolUse",
+  "trigger": {
+    "type": "manual",
+    "command": "edit-error-recovery"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "PostToolUse"
+  }
+}

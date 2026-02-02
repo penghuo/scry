@@ -1,0 +1,14 @@
+{
+  "name": "background-notification",
+  "description": "Notify when background agent tasks complete",
+  "event": "Stop",
+  "trigger": {
+    "type": "manual",
+    "command": "background-notification"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "Stop"
+  }
+}

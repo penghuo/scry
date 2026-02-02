@@ -1,0 +1,14 @@
+{
+  "name": "comment-checker",
+  "description": "Remind to reduce excessive comments (ignore BDD/docstrings)",
+  "event": "PostToolUse",
+  "trigger": {
+    "type": "manual",
+    "command": "comment-checker"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "PostToolUse"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "session-notification",
+  "description": "Notify when agents go idle",
+  "event": "Stop",
+  "trigger": {
+    "type": "manual",
+    "command": "session-notification"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "Stop"
+  }
+}

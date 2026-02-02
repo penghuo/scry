@@ -1,0 +1,14 @@
+{
+  "name": "grep-output-truncator",
+  "description": "Truncate grep output dynamically",
+  "event": "PostToolUse",
+  "trigger": {
+    "type": "manual",
+    "command": "grep-output-truncator"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "PostToolUse"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "start-work",
+  "description": "Start execution from a Prometheus-generated plan",
+  "event": "ManualCommand",
+  "trigger": {
+    "type": "manual",
+    "command": "start-work"
+  },
+  "agent": "atlas",
+  "enabled": true
+}

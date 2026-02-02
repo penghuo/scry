@@ -1,0 +1,14 @@
+{
+  "name": "auto-slash-command",
+  "description": "Auto-execute slash commands inferred from prompt",
+  "event": "UserPromptSubmit",
+  "trigger": {
+    "type": "manual",
+    "command": "auto-slash-command"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "UserPromptSubmit"
+  }
+}

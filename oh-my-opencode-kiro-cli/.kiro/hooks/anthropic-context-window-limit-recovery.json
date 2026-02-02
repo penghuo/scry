@@ -1,0 +1,14 @@
+{
+  "name": "anthropic-context-window-limit-recovery",
+  "description": "Handle Claude context window limits",
+  "event": "Stop",
+  "trigger": {
+    "type": "manual",
+    "command": "anthropic-context-window-limit-recovery"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "Stop"
+  }
+}

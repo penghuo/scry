@@ -1,0 +1,14 @@
+{
+  "name": "agent-usage-reminder",
+  "description": "Remind to leverage specialized agents",
+  "event": "PostToolUse",
+  "trigger": {
+    "type": "manual",
+    "command": "agent-usage-reminder"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "PostToolUse"
+  }
+}

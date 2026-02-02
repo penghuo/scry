@@ -1,0 +1,14 @@
+{
+  "name": "empty-message-sanitizer",
+  "description": "Prevent empty chat messages",
+  "event": "PreToolUse",
+  "trigger": {
+    "type": "manual",
+    "command": "empty-message-sanitizer"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "PreToolUse"
+  }
+}

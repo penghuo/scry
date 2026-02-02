@@ -1,0 +1,17 @@
+{
+  "name": "ultrawork-runner",
+  "model": "anthropic/claude-opus-4-5",
+  "temperature": 0.1,
+  "prompt": "file://../prompts/sisyphus.md",
+  "resources": [
+    "skill://git-master",
+    "skill://frontend-ui-ux",
+    "skill://agent-browser",
+    "skill://playwright",
+    "skill://dev-browser"
+  ],
+  "reasoning": "long",
+  "metadata": {
+    "mode": "ultrawork"
+  }
+}

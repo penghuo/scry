@@ -1,0 +1,11 @@
+{
+  "name": "ralph-loop",
+  "description": "Self-referential development loop until completion",
+  "event": "ManualCommand",
+  "trigger": {
+    "type": "manual",
+    "command": "ralph-loop"
+  },
+  "agent": "sisyphus",
+  "enabled": true
+}

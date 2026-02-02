@@ -1,0 +1,14 @@
+{
+  "name": "background-compaction",
+  "description": "Auto-compact sessions hitting token limits",
+  "event": "Stop",
+  "trigger": {
+    "type": "manual",
+    "command": "background-compaction"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "Stop"
+  }
+}

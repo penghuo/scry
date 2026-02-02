@@ -1,0 +1,11 @@
+{
+  "name": "cancel-ralph",
+  "description": "Cancel active Ralph loop",
+  "event": "ManualCommand",
+  "trigger": {
+    "type": "manual",
+    "command": "cancel-ralph"
+  },
+  "agent": "sisyphus",
+  "enabled": true
+}

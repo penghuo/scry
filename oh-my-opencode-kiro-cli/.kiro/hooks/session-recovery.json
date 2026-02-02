@@ -1,0 +1,14 @@
+{
+  "name": "session-recovery",
+  "description": "Recover from session errors and missing tool results",
+  "event": "Stop",
+  "trigger": {
+    "type": "manual",
+    "command": "session-recovery"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "Stop"
+  }
+}

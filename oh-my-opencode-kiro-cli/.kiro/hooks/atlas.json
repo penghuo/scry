@@ -1,0 +1,14 @@
+{
+  "name": "atlas",
+  "description": "Main orchestration logic",
+  "event": "All",
+  "trigger": {
+    "type": "manual",
+    "command": "atlas"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "All"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "thinking-block-validator",
+  "description": "Validate thinking blocks to avoid API errors",
+  "event": "PreToolUse",
+  "trigger": {
+    "type": "manual",
+    "command": "thinking-block-validator"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "PreToolUse"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "start-work",
+  "description": "Handle /start-work execution",
+  "event": "PostToolUse",
+  "trigger": {
+    "type": "manual",
+    "command": "start-work"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "PostToolUse"
+  }
+}

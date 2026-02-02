@@ -1,0 +1,11 @@
+{
+  "name": "init-deep",
+  "description": "Initialize hierarchical AGENTS.md knowledge base",
+  "event": "ManualCommand",
+  "trigger": {
+    "type": "manual",
+    "command": "init-deep"
+  },
+  "agent": "sisyphus",
+  "enabled": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "auto-update-checker",
+  "description": "Check for updates and show startup toast",
+  "event": "UserPromptSubmit",
+  "trigger": {
+    "type": "manual",
+    "command": "auto-update-checker"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "UserPromptSubmit"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "directory-readme-injector",
+  "description": "Inject directory README.md context",
+  "event": "PostToolUse",
+  "trigger": {
+    "type": "manual",
+    "command": "directory-readme-injector"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "PostToolUse"
+  }
+}

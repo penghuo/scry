@@ -1,0 +1,14 @@
+{
+  "name": "delegate-task-retry",
+  "description": "Retry failed delegate_task calls",
+  "event": "PostToolUse",
+  "trigger": {
+    "type": "manual",
+    "command": "delegate-task-retry"
+  },
+  "agent": "sisyphus",
+  "enabled": true,
+  "metadata": {
+    "omoc_event": "PostToolUse"
+  }
+}
