@@ -1,0 +1,6 @@
+{
+  "name": "sisyphus-junior",
+  "model": "anthropic/claude-sonnet-4-5",
+  "temperature": 0.1,
+  "prompt": "file://../prompts/sisyphus-junior.md"
+}

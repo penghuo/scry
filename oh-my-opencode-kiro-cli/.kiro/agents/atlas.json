@@ -1,0 +1,13 @@
+{
+  "name": "atlas",
+  "model": "anthropic/claude-sonnet-4-5",
+  "temperature": 0.1,
+  "prompt": "file://../prompts/atlas.md",
+  "resources": [
+    "skill://git-master",
+    "skill://frontend-ui-ux",
+    "skill://agent-browser",
+    "skill://playwright",
+    "skill://dev-browser"
+  ]
+}
