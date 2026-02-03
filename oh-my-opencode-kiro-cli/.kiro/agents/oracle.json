@@ -1,6 +1,0 @@
-{
-  "name": "oracle",
-  "model": "openai/gpt-5.2",
-  "temperature": 0.1,
-  "prompt": "file://../prompts/oracle.md"
-}

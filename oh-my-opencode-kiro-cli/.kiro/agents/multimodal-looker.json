@@ -1,6 +1,0 @@
-{
-  "name": "multimodal-looker",
-  "model": "google/gemini-3-flash",
-  "temperature": 0.1,
-  "prompt": "file://../prompts/multimodal-looker.md"
-}
