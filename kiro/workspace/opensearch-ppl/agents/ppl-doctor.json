@@ -1,0 +1,26 @@
+{
+  "name": "ppl-doctor",
+  "prompt": "file://./ppl-doctor.prompt.md",
+  "description": "Orchestrator for PPL intake/repro/PR; delegates RCA and fix to rca-fix-agent.",
+  "mcpServers": {      
+  },  
+  "tools": [
+     "@builtin", "subagent"
+  ],
+  "toolAliases": {},
+  "allowedTools": [
+    "read", "shell", "web_search", "web_fetch", "grep", "glob", "todo_list", "thinking", "subagent", "introspect", "report"
+  ],
+  "resources": [
+    "skill://../skills/github-master/SKILLS.md"
+  ],
+  "hooks": {},
+  "toolsSettings": {
+    "write": {
+      "allowedPaths": [
+        "/Users/penghuo/oss/os-ppl/**"
+      ]
+    }
+  },
+  "model": "claude-sonnet-4.5-1m"
+}
